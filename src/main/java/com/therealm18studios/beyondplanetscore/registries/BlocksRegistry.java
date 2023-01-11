@@ -1,6 +1,6 @@
 package com.therealm18studios.beyondplanetscore.registries;
 
-import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
+import com.therealm18studios.beyondplanetscore.PlaneteerCore;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class BlocksRegistry {
 
-    public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, BeyondPlanetsCore.MODID);
+    public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, PlaneteerCore.MODID);
 
     /**
      * Minecraft

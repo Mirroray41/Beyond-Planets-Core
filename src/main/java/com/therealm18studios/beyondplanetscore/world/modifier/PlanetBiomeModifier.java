@@ -1,6 +1,6 @@
 package com.therealm18studios.beyondplanetscore.world.modifier;
 
-import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
+import com.therealm18studios.beyondplanetscore.PlaneteerCore;
 import com.therealm18studios.beyondplanetscore.world.oregen.OreGeneration;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -12,10 +12,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.mrscauthd.beyond_earth.registries.BiomesRegistry;
 
-@Mod.EventBusSubscriber(modid = BeyondPlanetsCore.MODID)
+@Mod.EventBusSubscriber(modid = PlaneteerCore.MODID)
 public class PlanetBiomeModifier {
 
-    public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(Registry.FEATURE_REGISTRY, BeyondPlanetsCore.MODID);
+    public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(Registry.FEATURE_REGISTRY, PlaneteerCore.MODID);
 
     @SubscribeEvent
     public static void biomesLoading(BiomeLoadingEvent event) {

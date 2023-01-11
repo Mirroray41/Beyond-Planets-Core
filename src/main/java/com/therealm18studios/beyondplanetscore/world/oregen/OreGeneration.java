@@ -1,6 +1,6 @@
 package com.therealm18studios.beyondplanetscore.world.oregen;
 
-import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
+import com.therealm18studios.beyondplanetscore.PlaneteerCore;
 import com.therealm18studios.beyondplanetscore.configurations.glacio.GlacioOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mars.MarsOreGenerationCommon;
 import com.therealm18studios.beyondplanetscore.configurations.mercury.MercuryOreGenerationCommon;
@@ -25,11 +25,11 @@ import net.mrscauthd.beyond_earth.BeyondEarthMod;
 
 import java.util.List;
 
-@Mod.EventBusSubscriber(modid = BeyondPlanetsCore.MODID)
-public class    OreGeneration {
+@Mod.EventBusSubscriber(modid = PlaneteerCore.MODID)
+public class OreGeneration {
 
-    public static final DeferredRegister<ConfiguredFeature<?,?>> CONFIGURED_FEATURES = DeferredRegister.create(Registry.CONFIGURED_FEATURE_REGISTRY, BeyondPlanetsCore.MODID);
-    public static final DeferredRegister<PlacedFeature> PLACED_FEATURES = DeferredRegister.create(Registry.PLACED_FEATURE_REGISTRY, BeyondPlanetsCore.MODID);
+    public static final DeferredRegister<ConfiguredFeature<?,?>> CONFIGURED_FEATURES = DeferredRegister.create(Registry.CONFIGURED_FEATURE_REGISTRY, PlaneteerCore.MODID);
+    public static final DeferredRegister<PlacedFeature> PLACED_FEATURES = DeferredRegister.create(Registry.PLACED_FEATURE_REGISTRY, PlaneteerCore.MODID);
 
     /**
      * Beyond Earth:

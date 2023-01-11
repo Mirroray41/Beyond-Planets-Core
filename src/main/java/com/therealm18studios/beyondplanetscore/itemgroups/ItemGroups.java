@@ -9,21 +9,21 @@ import net.minecraftforge.api.distmarker.Dist;
 
 public class ItemGroups {
 
-    public static CreativeModeTab TAB_ORES = new CreativeModeTab("beyond_planets_core.tab_ores") {
+    public static CreativeModeTab TAB_ORES = new CreativeModeTab("planeteer_core.tab_ores") {
         @OnlyIn(Dist.CLIENT)
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ItemsRegistry.MARS_COPPER_ORE_ITEM.get(), 1);
         }
     };
-    public static CreativeModeTab TAB_ITEMS = new CreativeModeTab("beyond_planets_core.tab_items") {
+    public static CreativeModeTab TAB_ITEMS = new CreativeModeTab("planeteer_core.tab_items") {
         @OnlyIn(Dist.CLIENT)
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ItemsRegistry.RAW_LEAD_ITEM.get(), 1);
         }
     };
-    public static CreativeModeTab TAB_BUILDING_BLOCKS = new CreativeModeTab("beyond_planets_core.tab_building_blocks") {
+    public static CreativeModeTab TAB_BUILDING_BLOCKS = new CreativeModeTab("planeteer_core.tab_building_blocks") {
         @OnlyIn(Dist.CLIENT)
         @Override
         public ItemStack makeIcon() {

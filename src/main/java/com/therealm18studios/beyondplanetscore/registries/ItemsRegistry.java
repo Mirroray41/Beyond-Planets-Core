@@ -1,6 +1,6 @@
 package com.therealm18studios.beyondplanetscore.registries;
 
-import com.therealm18studios.beyondplanetscore.BeyondPlanetsCore;
+import com.therealm18studios.beyondplanetscore.PlaneteerCore;
 import com.therealm18studios.beyondplanetscore.itemgroups.ItemGroups;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ItemsRegistry {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BeyondPlanetsCore.MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PlaneteerCore.MODID);
 
 
     /**
