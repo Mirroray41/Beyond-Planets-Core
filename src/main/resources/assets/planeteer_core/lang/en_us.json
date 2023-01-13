@@ -44,11 +44,11 @@
   "block.planeteer_core.glacio_cobalt_ore": "Glacio Cobalt Ore",
 
 
-  "block.planeteer_core.tin_block_raw": "Block Of Raw Tin",
-  "block.planeteer_core.zinc_block_raw": "Block Of Raw Zinc",
-  "block.planeteer_core.uranium_block_raw": "Block Of Raw Uranium",
-  "block.planeteer_core.lead_block_raw": "Block Of Raw Lead",
-  "block.planeteer_core.cobalt_block_raw": "Block Of Raw Cobalt",
+  "block.planeteer_core.tin_block_raw": "Block of Raw Tin",
+  "block.planeteer_core.zinc_block_raw": "Block of Raw Zinc",
+  "block.planeteer_core.uranium_block_raw": "Block of Raw Uranium",
+  "block.planeteer_core.lead_block_raw": "Block of Raw Lead",
+  "block.planeteer_core.cobalt_block_raw": "Block of Raw Cobalt",
 
 
   "block.planeteer_core.copper_block_raw_wall": "Raw Copper Wall",
@@ -81,11 +81,11 @@
   "block.planeteer_core.cobalt_block_raw_stairs": "Raw Cobalt Stairs",
 
 
-  "block.planeteer_core.tin_block_compressed": "Block Of Tin",
-  "block.planeteer_core.zinc_block_compressed": "Block Of Zinc",
-  "block.planeteer_core.uranium_block_compressed": "Block Of Uranium",
-  "block.planeteer_core.lead_block_compressed": "Block Of Lead",
-  "block.planeteer_core.cobalt_block_compressed": "Block Of Cobalt",
+  "block.planeteer_core.tin_block_compressed": "Block of Tin",
+  "block.planeteer_core.zinc_block_compressed": "Block of Zinc",
+  "block.planeteer_core.uranium_block_compressed": "Block of Uranium",
+  "block.planeteer_core.lead_block_compressed": "Block of Lead",
+  "block.planeteer_core.cobalt_block_compressed": "Block of Cobalt",
 
 
   "block.planeteer_core.redstone_block_compressed_wall": "Redstone Wall",
@@ -131,7 +131,7 @@
   "block.planeteer_core.cobalt_block_compressed_stairs": "Cobalt Stairs",
 
 
-  "item.planeteer_core.raw_ore_tin": " Raw Tin Ore",
+  "item.planeteer_core.raw_ore_tin": "Raw Tin Ore",
   "item.planeteer_core.raw_ore_zinc": "Raw Zinc Ore",
   "item.planeteer_core.raw_ore_uranium": "Raw Uranium Ore",
   "item.planeteer_core.raw_ore_lead": "Raw Lead Ore",
@@ -144,7 +144,7 @@
   "item.planeteer_core.ingot_lead": "Lead Ingot",
   "item.planeteer_core.ingot_cobalt": "Cobalt Ingot",
 
-  "itemGroup.planeteer_core.tab_ores": "BPC: Ore",
-  "itemGroup.planeteer_core.tab_items": "BPC: Items",
-  "itemGroup.planeteer_core.tab_building_blocks": "BPC: Decoration Blocks"
+  "itemGroup.planeteer_core.tab_ores": "Planeteer: Ores",
+  "itemGroup.planeteer_core.tab_items": "Planeteer: Items",
+  "itemGroup.planeteer_core.tab_building_blocks": "Planeteer: Decoration Blocks"
 }

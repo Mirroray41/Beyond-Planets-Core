@@ -9,7 +9,7 @@ displayName="Planeteer - Core"
 credits="The Realm18 Studios, 7App - Development"
 authors="The Realm18 Studios, Mirroray41/ZAppFireCZ, matrixidot, Contrabass26, Lego245, st0x0ef"
 description='''
-This mod for the core of Planeteer.
+The core of Planeteer!
 '''
 
 [[dependencies.planeteer_core]]

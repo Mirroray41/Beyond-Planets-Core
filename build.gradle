@@ -15,7 +15,7 @@ apply plugin: 'net.minecraftforge.gradle'
 
 
 version = "${project.mc_version}-${project.mod_version}"
-group = 'com.therealm18studios.beyondplanetscore'
+group = 'com.therealm18studios.planeteercore'
 archivesBaseName = 'Planeteer-Core'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
